@@ -1,0 +1,17 @@
+{
+  "name": "simple-curl-prompt-local-api-test",
+  "version": "1.0.0",
+  "description": "a simple curl prompt to test a local dev env api, mostly a very lazy way instead of using Postman",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test-api": "node index.js",
+    "lint": "eslint ./src"
+  },
+  "keywords": [],
+  "author": "Kareem Aboeid",
+  "license": "MIT",
+  "devDependencies": {
+    "inquirer": "^8.2.6"
+  }
+}
